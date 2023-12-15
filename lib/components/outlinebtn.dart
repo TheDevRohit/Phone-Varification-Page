@@ -11,7 +11,7 @@ Widget OutlineBtn({title  , onTap , icon }){
     onPressed: onTap,
     child:  Row(
       children: [
-        Icon(icon),
+        Image.asset(icon),
         const SizedBox(
           width: 30,
         ),

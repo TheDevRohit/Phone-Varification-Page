@@ -1,10 +1,8 @@
-import 'package:country_code_picker/country_code_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:phonelogin/components/OtpBox.dart';
 import 'package:phonelogin/components/elevbutton.dart';
 import 'package:phonelogin/components/outlinebtn.dart';
 import 'package:phonelogin/pages/Done.dart';
-import 'package:sms_otp_auto_verify/sms_otp_auto_verify.dart';
 
 class OtpPage extends StatefulWidget {
   const OtpPage({super.key});
@@ -130,7 +128,7 @@ class _OtpPageState extends State<OtpPage> {
                           OutlineBtn(
                             title: 'Continue with Email Id',
                             onTap: () {},
-                            icon: Icons.mobile_screen_share_sharp,
+                            icon: 'assets/images/mobile.png'
                           ),
                         ]),
                   ),

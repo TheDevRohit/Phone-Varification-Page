@@ -10,7 +10,7 @@ Widget OtpBox({controller}){
       color: Colors.white,
     ),
     child: Padding(
-      padding: const EdgeInsets.only(bottom:10,left: 4),
+      padding: const EdgeInsets.only(bottom:10,left: 4 ),
       child: TextField(
           enabled: true,
           textAlign: TextAlign.center,

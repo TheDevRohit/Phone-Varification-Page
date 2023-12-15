@@ -4,7 +4,7 @@ Widget ElevatedBtn({String ? title , onTap}){
   return ElevatedButton(
       style: ElevatedButton.styleFrom(
         minimumSize: const Size(double.infinity, 50),
-        backgroundColor: Colors.yellowAccent,
+        backgroundColor: Colors.yellow,
         foregroundColor: Colors.black,
         shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(10)),
